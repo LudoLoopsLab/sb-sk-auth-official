@@ -6,5 +6,6 @@ export const load: PageServerLoad = async ({ locals: { supabase } }) => {
 		.select('name')
 		.limit(5)
 		.order('name');
+
 	return { countries: countries ?? [] };
 };
