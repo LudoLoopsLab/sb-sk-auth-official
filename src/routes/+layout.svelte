@@ -33,7 +33,7 @@
 </script>
 
 <header>
-	<AppBar background="bg-surface-100-800-token">
+	<AppBar background="bg-surface-500">
 		<nav class="list-nav">
 			<ul class="flex">
 				<li><a href="/" class={classesActive('/')}>home</a></li>
